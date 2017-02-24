@@ -7,10 +7,10 @@ module.exports = (opts, callback) => {
 	opts = opts || [];
 
 	let query;
-
 	if (_.isEmpty(opts)) {
 		query = new YQL('select * from weather.forecast where woeid in (select woeid from geo.places(1) where text="Dhaka, Bangladesh")');
-	} else {
+	} else {    //request the server and retrieve the data into a query
+
 		query = new YQL('select * from weather.forecast where woeid in (select woeid from geo.places(1) where text="' + opts[0] + ', ' + opts[1] + '")');
 	}
 

@@ -11,7 +11,7 @@ returns
 ![alt tag](result.png)
 
 ### Installation
-In the cli.js directory.
+In the weather directory with Node js.
 `npm install ` 
 It will install all the packages.
 
