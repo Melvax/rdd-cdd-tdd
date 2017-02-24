@@ -10,7 +10,10 @@ for example :
 returns 
 ![alt tag](result.png)
 
-
+### Installation
+In the cli.js directory.
+`npm install ` 
+It will install all the packages.
 
 
 
